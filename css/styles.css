@@ -1500,7 +1500,7 @@ textarea {
     display: inline-block;
     width: 16px;
     height: 15px;
-
+    vertical-align: middle;
     border: 1px solid #212121;
     border-width: 2px;
     border-radius: 2px;
@@ -1520,6 +1520,10 @@ textarea {
     transition: background-color var(--transition-duration) var(--timing-function),
         border-color var(--transition-duration) var(--timing-function),
         background-image var(--transition-duration) var(--timing-function);
+}
+
+.icon:hover {
+    border-color: #2196F3;
 }
 
 .policy {
