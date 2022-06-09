@@ -743,7 +743,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   max-width: 1600px;
-  background-color: #2f303a;
+  /*background-color: $bcg-color;*/
 }
 
 .hero__title {
